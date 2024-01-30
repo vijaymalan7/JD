@@ -98,7 +98,7 @@ main hr {
     max-width: 80vw;
     margin: auto;
     height: 80vh;
-   
+    
 }
 
 .secondSection h1 {
@@ -115,6 +115,9 @@ main hr {
     margin: 56px 0;
     display: flex;
 }
+#id{
+    height: auto;
+}
 
 .secondSection .vertical {
     height: 93px;
@@ -126,6 +129,9 @@ main hr {
     max-width: 80vw;
     margin: auto;
     height: 70vh;
+}
+.thirdsection img{
+    margin: 15px;
 }
 
 .thirdsection h1 span{
@@ -211,7 +217,8 @@ footer .footer-rights {
 .foursection{
     max-width: 80vw;
     margin: auto;
-    height: 70vh;
+    /* height: 70vh; */
+    height: auto;
 
 }    
 .card-wappers .card {
@@ -248,11 +255,12 @@ footer .footer-rights {
     color: rgb(43, 43, 190);
 }
 .project{
-    max-width: 80vw;
+    /* max-width: 80vw; */
     margin: auto;
     /* height: 100vh; */
     font-size: 2rem;
     /* display: flex; */
+    height: auto;
 
 }
 .project span{
@@ -264,7 +272,7 @@ footer .footer-rights {
  .work {
     margin-top: 20px;
     margin: auto;   
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(3, 1fr);
     list-style: none;
     grid-column-gap: 1rem;
@@ -282,3 +290,5 @@ footer .footer-rights {
 .project .uvideo  a :hover{
     color: rgb(27, 14, 47);
   }
+
+  
